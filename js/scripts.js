@@ -14,14 +14,13 @@ $(document).ready(function() {
     var number2 = parseInt($("input:radio[name=answer2]:checked").val());
     var number3 = parseInt($("input:radio[name=answer3]:checked").val());
     var result = add(number1, number2, number3);
-    if (result >= 3 && result <= 7) {
+
+    if (result >= 3 && result <= 6) {
       alert("You are Leah");
-    } else if (operator === "subtract") {
-      result = subtract(number1, number2);
-    } else if (operator === "multiply") {
-      result = multiply(number1, number2);
-    } else if (operator === "divide") {
-      result = divide(number1, number2)
+    } else if (result >=7 && result <= 10) {
+      alert("You are Chewie");
+    } else if (result >= 11) {
+      alert("You are R2D2");
     }
   });
 });
