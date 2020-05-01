@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Calculator</title>
+    <title>Which Star Wars Character Are You?</title>
     <meta charset="UTF-8">
     <script src="js/jquery-3.5.0.js"></script>
     <script src="js/scripts.js"></script>
@@ -11,77 +11,92 @@
   </head>
   <body>
     <div class="container">
-      <h1>Calculator</h1>
+      <h1>Which Star Wars Character Are You?</h1>
 
-      <form id="add">
-        <div class="form-group">
-          <label for="add1">Number 1:</label>
-          <input type="text" id="add1" class="form-control">
+      <form id="quiz">
+        <p>What's your favorite Star Wars Movie?</p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="answer1" value="1" checked>
+            Phantom Menance
+          </label>
         </div>
-        <div class="form-group">
-          <label for="add2">Number 2:</label>
-          <input type="text" id="add2" class="form-control">
+        <div class="radio">
+          <label>
+            <input type="radio" name="answer1" value="2">
+            Empire Strikes Back
+          </label>
         </div>
-        <div class="form-group">
-          <input type="submit" value="Add" class="btn btn-default">
+        <div class="radio">
+          <label>
+            <input type="radio" name="answer1" value="3">
+            A New Hope
+          </label>
+        </div>        
+        <div class="radio">
+          <label>
+            <input type="radio" name="answer1" value="4">
+            Return of the Sith
+          </label>
         </div>
-      </form>
-      <div id="addOutput">
-
+      <p>What kind of pet do you have/like?</p>
+      <div class="radio">
+        <label>
+          <input type="radio" name="answer2" value="1" checked>
+          Dog
+        </label>
       </div>
-
-      <form id="subtract">
-        <div class="form-group">
-          <label for="subtract1">Number 1:</label>
-          <input type="text" id="subtract1" class="form-control">
-        </div>
-        <div class="form-group">
-          <label for="subtract2">Number 2:</label>
-          <input type="text" id="subtract2" class="form-control">
-        </div>
-        <div class="form-group">
-          <input type="submit" value="Subtract" class="btn btn-default">
-        </div>
-      </form>
-      <div id="subtractOutput">
-        
+      <div class="radio">
+        <label>
+          <input type="radio" name="answer2" value="2">
+          Cat
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="answer2" value="3">
+          Parrot
+        </label>
+      </div>        
+      <div class="radio">
+        <label>
+          <input type="radio" name="answer2" value="4">
+          Turtle
+        </label>
       </div>
       
-      <form id="multiply">
-        <div class="form-group">
-          <label for="multiply1">Number 1:</label>
-          <input type="text" id="multiply1" class="form-control">
+      <p>Who is your celebrity crush?</p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="answer3" value="1" checked>
+            Tom Arnold
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="answer3" value="2">
+            Justin Bieber
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="answer3" value="3">
+            Jessica Rabbit
+          </label>
+        </div>        
+        <div class="radio">
+          <label>
+            <input type="radio" name="answer3" value="4">
+            Angelina Jolie
+          </label>
         </div>
         <div class="form-group">
-          <label for="multiply2">Number 2:</label>
-          <input type="text" id="multiply2" class="form-control">
-        </div>
-        <div class="form-group">
-          <input type="submit" value="Multiply" class="btn btn-default">
+          <input type="submit" value="Submit!!!" class="btn btn-default">
         </div>
       </form>
-      <div id="multiplyOutput">
-        
+      <div id="output">
+
       </div>
-
-      <form id="divide">
-        <div class="form-group">
-          <label for="divide1">Number 1:</label>
-          <input type="text" id="divide1" class="form-control">
-        </div>
-        <div class="form-group">
-          <label for="divide2">Number 2:</label>
-          <input type="text" id="divide2" class="form-control">
-        </div>
-        <div class="form-group">
-          <input type="submit" value="Divide" class="btn btn-default">
-        </div>
-      </form>
-      <div id="divideOutput">
-        
-      </div>
-
-
 
     </div>
 
